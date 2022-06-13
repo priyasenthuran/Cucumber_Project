@@ -1,0 +1,678 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jun 6, 2022 11:13:10 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Booking Hotel Room Functionality in WebApplication</p>
+            <p class="text-sm">
+              <span>11:13:15 pm</span> / <span>00:00:29:442</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Booking Hotel Room Functionality in WebApplication</h5>
+<span class='badge badge-success'>06.06.2022 11:13:15 pm</span>
+<span class='badge badge-danger'>06.06.2022 11:13:45 pm</span>
+<span class='badge badge-default'>00:00:29:442</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Login Functionality of the Application</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Login Functionality of the Application</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User lanches the Application</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters the "Senthura" in the username</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the "Senthuran@12" in the password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User validates the navigation from logoin page to search hotel page</span>
+      <div>
+        <textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<Adactin.com - [Search Hotel]> but was:<Adactin.com - [Hotel Reservation System]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.adactin.stepdefinition.StepDefinition.user_validates_the_navigation_from_logoin_page_to_search_hotel_page(StepDefinition.java:129)
+	at ✽.User validates the navigation from logoin page to search hotel page(file:///C:/Users/Senthuran/eclipse-workspace/AdactinHotel/src/test/java/com/adactin/feature/adactin.feature:7)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="11"><span class="badge log fail-bg mr-2">Fail</span>Login Functionality of the Application</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User lanches the Application</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters the "senthuran" in the username</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the "senthuan@12" in the password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User validates the navigation from logoin page to search hotel page</span>
+      <div>
+        <textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<Adactin.com - [Search Hotel]> but was:<Adactin.com - [Hotel Reservation System]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.adactin.stepdefinition.StepDefinition.user_validates_the_navigation_from_logoin_page_to_search_hotel_page(StepDefinition.java:129)
+	at ✽.User validates the navigation from logoin page to search hotel page(file:///C:/Users/Senthuran/eclipse-workspace/AdactinHotel/src/test/java/com/adactin/feature/adactin.feature:7)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>Login Functionality of the Application</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given User lanches the Application</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters the "Sethuran" in the username</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the "senthuran@15" in the password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then User validates the navigation from logoin page to search hotel page</span>
+      <div>
+        <textarea disabled class="code-block">org.junit.ComparisonFailure: expected:<Adactin.com - [Search Hotel]> but was:<Adactin.com - [Hotel Reservation System]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.adactin.stepdefinition.StepDefinition.user_validates_the_navigation_from_logoin_page_to_search_hotel_page(StepDefinition.java:129)
+	at ✽.User validates the navigation from logoin page to search hotel page(file:///C:/Users/Senthuran/eclipse-workspace/AdactinHotel/src/test/java/com/adactin/feature/adactin.feature:7)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="27"><span class="badge log pass-bg mr-2">Pass</span>Login Functionality of the Application</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given User lanches the Application</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User enters the "senthuran" in the username</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User enters the "Senthuran@12" in the password</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks the login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User validates the navigation from logoin page to search hotel page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="35"><span class="badge log pass-bg mr-2">Pass</span>verify user in the search hotel page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_selects_the_location_in_the_location_field()">
+                <span>When user selects the location in the location field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_selects_the_hotels_in_the_hotel_field()">
+                <span>And user selects the hotels in the hotel field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_selects_the_roomtype_in_the_roomtype_field()">
+                <span>And user selects the roomtype in the roomtype field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_selects_the_numberofroom_in_the_nof_field()">
+                <span>And user selects the numberofroom in the nof field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_selects_the_checkindate_in_the_checkin_field()">
+                <span>And user selects the checkindate in the checkin field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_selects_the_checkoutdate_in_the_checkout_field()">
+                <span>And user selects the checkoutdate in the checkout field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_selects_the_numberofadult_in_the_adultperroom_field()">
+                <span>And user selects the numberofadult in the adultperroom field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_select_the_numberofchild_in_the_childperroom_field()">
+                <span>And user select the  numberofchild in the childperroom field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_click_search_button_to_search_the_hotel_details()">
+                <span>And user click search button to search the hotel details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_validates_the_navigation_from_searchpage_to_select_page()">
+                <span>Then user validates the navigation from searchpage to select page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="48"><span class="badge log pass-bg mr-2">Pass</span>verify user in the selecting hotel page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_select_the_radiobutton_if_the_detail_enter_is_correct()">
+                <span>When user select the radiobutton if the detail enter is correct</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_click_the_continue_button_for_continue_the_booking()">
+                <span>And user click the continue button for continue the booking</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_validate_the_navigation_from_select_page_to_roombookingpage()">
+                <span>Then user validate the navigation from select page to roombookingpage</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="54"><span class="badge log pass-bg mr-2">Pass</span>Verify user in the room booking page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_enters_the_firstname_in_the_first_name_field()">
+                <span>When user enters the firstname in the first name field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_enters_the_lastname_in_the_last_name_field()">
+                <span>And user enters the lastname in the last name field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_enters_the_address_in_the_address_field()">
+                <span>And user enters the address in the address field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_enters_the_credit_card_details_in_the_card_details_field()">
+                <span>And user enters the credit card details in the card details field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.users_selects_the_cardtpe_in_the_card_type()">
+                <span>And users selects the cardtpe in the card type</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.users_selects_the_card_expiry_month_in_the_select_month_field()">
+                <span>And users Selects the card expiry month in the select month field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.users_selects_the_card_expiry_year_in_the_select_year_field()">
+                <span>And users selects the card expiry year in the select year field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.users_enters_the_cvv_number_in_the_cvvnumber_field()">
+                <span>And users enters the cvv number in the cvvnumber field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.users_click_the_booknow_button_to_confirm_the_booking()">
+                <span>And users click the booknow button to confirm the booking</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="66"><span class="badge log pass-bg mr-2">Pass</span>booking confiramtion</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_click_myliternary_to_view_the_booking_detail()">
+                <span>When user click myliternary to view the booking detail</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_navigate_into_the_book_intenary_page()">
+                <span>Then User navigate into the book intenary page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="71"><span class="badge log pass-bg mr-2">Pass</span>book itneary page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_click_logut_to_come_out_of_application()">
+                <span>When user click logut to come out of application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.adactin.stepdefinition.StepDefinition.user_close_the_application()">
+                <span>Then user close the application</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">org.junit.ComparisonFailure</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.junit.ComparisonFailure</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:13:18 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='9'>Then User validates the navigation from logoin page to search hotel page</a>
+<div class="">
+<span class="badge badge-default">Booking Hotel Room Functionality in WebApplication.Login Functionality of the Application.Then User validates the navigation from logoin page to search hotel page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:13:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='17'>Then User validates the navigation from logoin page to search hotel page</a>
+<div class="">
+<span class="badge badge-default">Booking Hotel Room Functionality in WebApplication.Login Functionality of the Application.Then User validates the navigation from logoin page to search hotel page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:13:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='25'>Then User validates the navigation from logoin page to search hotel page</a>
+<div class="">
+<span class="badge badge-default">Booking Hotel Room Functionality in WebApplication.Login Functionality of the Application.Then User validates the navigation from logoin page to search hotel page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jun 6, 2022 11:13:10 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jun 6, 2022 11:13:45 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='66%'><b>6</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='33%'><b>3</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='93%'><b>43</b> steps passed</small></div>
+<div>
+<small data-tooltip='6%'><b>3</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Booking Hotel Room Functionality in WebApplication":29.442
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 6,
+failChild: 3,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 43,
+failGrandChild: 3,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
